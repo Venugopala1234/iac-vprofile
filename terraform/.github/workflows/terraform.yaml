@@ -19,7 +19,7 @@ env:
  EKS_CLUSTER: vprofile-eks
 
 
-jobs:
+  jobs:
   terraform:
     name: "apply terraform code changes"
     runs-on: ubuntu-latest
